@@ -1,0 +1,22 @@
+{
+  "name": "sasa/customer-registration",
+  "version": "1.0.0",
+  "description": "Extends Magento's core Customer Registration flow",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-customer": "103.0.*",
+    "magento/module-store": "101.1.*"
+  },
+  "liense": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sasa\\CustomerRegistration\\": ""
+    }
+  }
+}
